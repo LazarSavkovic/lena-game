@@ -1,0 +1,35 @@
+canvas {
+    margin: 0;
+}
+body {
+    margin: 0;
+}
+
+.gameOverDiv {
+    background-color: darkcyan;
+    border-radius: 5px;
+    width: 350px;
+    height: 300px;
+    position: absolute;  
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+#restartBtn {
+    border: none;
+    border-radius: 5px;
+    background-color: lightcyan;
+    padding: 10px 27px;
+    cursor: pointer;
+}
+
+
+#restartBtn:hover {
+    transform: scale(105%);
+}
